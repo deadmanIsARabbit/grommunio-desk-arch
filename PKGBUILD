@@ -69,8 +69,8 @@ EOF
         "$pkgdir/usr/share/icons/hicolor/512x512/apps/$pkgname.png"
 
     install -Dm644 \
-        LICENSE \
-        "$pkgdir/usr/share/licenses/$pkgname/LICENSE.txt"
+        LICENSE.txt \
+        "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 
     install -d "$pkgdir/usr/share/applications"
 
